@@ -1,0 +1,54 @@
+{
+    "name": "asad/zoho-cliq",
+    "description": "Zoho Cliq Message Helper.",
+    "keywords": [
+        "asad",
+        "zoho-cliq"
+    ],
+    "homepage": "https://github.com/asad/zoho-cliq",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Asadur Rahman",
+            "email": "asadku34@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/support": "^5.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asad\\ZohoCliq\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Asad\\ZohoCliq\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Asad\\ZohoCliq\\ZohoCliqServiceProvider"
+            ],
+            "aliases": {
+                "ZohoCliq": "Asad\\ZohoCliq\\ZCliq"
+            }
+        }
+    }
+}
