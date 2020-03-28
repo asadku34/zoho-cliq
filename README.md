@@ -4,6 +4,7 @@
 [![Build Status](https://img.shields.io/travis/asad/zoho-cliq/master.svg?style=flat-square)](https://travis-ci.org/asad/zoho-cliq)
 [![Quality Score](https://img.shields.io/scrutinizer/g/asad/zoho-cliq.svg?style=flat-square)](https://scrutinizer-ci.com/g/asad/zoho-cliq)
 [![Total Downloads](https://img.shields.io/packagist/dt/asad/zoho-cliq.svg?style=flat-square)](https://packagist.org/packages/asad/zoho-cliq)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/asad/zoho-cliq)
 
 This is a simple laravel package for [Zoho Cliq](https://www.zoho.com/cliq/help/restapi/v2/#Messages). It's use token base authentication. So, you will get only message api helper method from this package.
 
@@ -17,7 +18,7 @@ composer require asad/zoho-cliq
 
 ## Config
 
-After executing the following command you will get zcliq.php file under config directory. Set Authtoken in the config file.
+After executing the following command you will get zcliq.php file under config directory. Set Authtoken, Channel Name, Send to(Channel, Chat, Bot, User) in the config file.
 
 ```bash
 php artisan vendor:publish --provider="Asad\ZohoCliq\ZohoCliqServiceProvider"
@@ -34,6 +35,9 @@ ZCliq::to('channel_name')->card([
             'theme' => 'modern-inline',
             'thumbnail' => 'https://www.zoho.com/cliq/help/restapi/images/announce_icon.png'
         ])->send("Send Message to Cliq Channel using asad/zoho-cliq package");
+
+//Without Card
+ZCliq::to('channel_name')->send("Send Message to Cliq Channel using asad/zoho-cliq package");
 
 ```
 
