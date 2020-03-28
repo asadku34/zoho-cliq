@@ -1,8 +1,8 @@
 # Laravel Helper Package For Zoho Cliq
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/asad/zoho-cliq.svg?style=flat-square)](https://packagist.org/packages/asad/zoho-cliq)
-[![Build Status](https://img.shields.io/travis/asadku34/zoho-cliq/master.svg?style=flat-square)](https://travis-ci.org/asad/zoho-cliq)
-[![Quality Score](https://img.shields.io/scrutinizer/g/asadku34/zoho-cliq.svg?style=flat-square)](https://scrutinizer-ci.com/g/asad/zoho-cliq)
+[![Build Status](https://img.shields.io/travis/asadku34/zoho-cliq/master.svg?style=flat-square)](https://travis-ci.org/asadku34/zoho-cliq)
+[![Quality Score](https://img.shields.io/scrutinizer/g/asadku34/zoho-cliq.svg?style=flat-square)](https://scrutinizer-ci.com/g/asadku34/zoho-cliq)
 [![Total Downloads](https://img.shields.io/packagist/dt/asad/zoho-cliq.svg?style=flat-square)](https://packagist.org/packages/asad/zoho-cliq)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/asad/zoho-cliq)
 
