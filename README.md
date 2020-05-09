@@ -55,7 +55,7 @@ If you discover any security related issues, please email asadku34@gmail.com ins
 
 ## Credits
 
--   [Asadur Rahman](https://github.com/asad)
+-   [Asadur Rahman](https://github.com/asadku34)
 -   [All Contributors](../../contributors)
 
 ## License
