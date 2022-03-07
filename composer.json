@@ -1,11 +1,11 @@
 {
-    "name": "asad/zoho-cliq",
+    "name": "eastbg/zoho-cliq",
     "description": "Zoho Cliq Message Helper.",
     "keywords": [
         "asad",
         "zoho-cliq"
     ],
-    "homepage": "https://github.com/asad/zoho-cliq",
+    "homepage": "https://github.com/eastbg/zoho-cliq",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "guzzlehttp/guzzle": "~6.0"
+        "guzzlehttp/guzzle": "^7.0.1"
     },
     "require-dev": {
         "orchestra/testbench": "3.5.*",
